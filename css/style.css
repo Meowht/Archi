@@ -1,0 +1,965 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+menu * {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    letter-spacing: 2px;
+
+
+
+}
+
+ul {
+    display: inline-block;
+
+    text-align: left;
+    /* border: blue solid; */
+    position: relative;
+    left: 80%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+
+}
+
+li {
+    display: inline-block;
+    /* margin-left: 460px; */
+
+
+}
+
+.droite {
+    display: inline-block;
+
+
+
+}
+
+header img {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.541);
+    
+}
+
+.archi {
+
+    position: relative;
+}
+
+.archi .architect {
+
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: white;
+    width: 11%;
+}
+
+
+h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 60%;
+    height: 75%;
+    display: inline;
+    font-size: 25px;
+
+}
+
+h3 {
+    color: white;
+    width: 25%;
+    height: 75%;
+    display: inline;
+    font-size: 30px;
+
+}
+
+#projets {
+
+
+    width: 97%;
+    margin: auto;
+
+
+
+}
+
+h1 {
+    letter-spacing: 2px;
+
+}
+
+
+
+
+.multihouse {
+    position: relative;
+
+}
+
+
+.pos {
+    display: inline-block;
+    position: relative;
+    width: 24%;
+}
+
+.house,
+.house2,
+.house3,
+.house4,
+.house5,
+.house6,
+.house7,
+.house8 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 10%;
+    width: 25%;
+    display: inline-block;
+    position: absolute;
+
+}
+
+#projets img {
+    width: 100%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.about {
+    display: inline-block;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.bar {
+    border: black solid 1px;
+    margin-left: 0%;
+    margin-right: 3.5%;
+}
+
+#about {
+    width: 97%;
+    margin: auto;
+    margin-right: 110px;
+}
+
+
+
+.team1 {
+    position: relative;
+    display: inline-block;
+    width: 21%;
+    margin-right: 1%;
+    
+}
+
+.team2 {
+    position: relative;
+    display: inline-block;
+    width: 21%;
+    margin-right: 1%;
+    margin-left: 4%;
+}
+
+.team4 {
+    position: relative;
+    display: inline-block;
+    width: 21%;
+    margin-right: 0%;
+    margin-left: 4%;
+}
+
+.team3 {
+    position: relative;
+    display: inline-block;
+    width: 21%;
+    margin-right: 1%;
+    margin-left: 4%;
+}
+
+
+.team1 img,
+.team2 img,
+.team3 img,
+.team4 img {
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+
+#contact {
+    width: 97%;
+    margin: auto;
+    padding: 0;
+    /* margin-left: 45px; */
+}
+
+.dude {
+    background: rgba(182, 182, 182, 0.253);
+    width: 100%;
+    color: rgb(0, 0, 0) solid;
+    height: 30px;
+    text-align: center;
+
+}
+
+#about {
+    width: 90%;
+    font-size: 15px;
+    position: relative;
+    right: 50px;
+}
+
+input {
+    width: 96%;
+    padding: 4px;
+    vertical-align: top;
+}
+
+.sub button{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 10%;
+    width: 25%;
+    width: 6%;
+    height: 30px;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    margin: auto;
+
+    
+}
+
+.map img {
+    width: 99%;
+    height: 100vh;
+    position:relative
+}
+
+.black {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 50%;
+    
+    width: 96.1%;
+    height: 10%;
+    margin: 0;
+    position: absolute;
+    margin-bottom: 450px;
+}
+
+/* tablette */
+@media screen and (max-width:768px) {
+     * {
+        margin: 0;
+        padding: 0;
+   
+
+    }
+   
+   
+    menu * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    header {
+        display: inline-block;
+        width: 100%;
+        letter-spacing: 0px;
+        
+    
+    
+    
+    }
+    
+    ul {
+        display: inline-block;
+    
+        text-align: left;
+         border: blue solid; 
+        position: relative;
+        left: 65%;
+        
+        
+    
+    }
+    
+    li {
+        display: inline-block;
+        /* margin-left: 460px; */
+    
+    
+    }
+    
+    .droite {
+        display: inline-block;
+        position: relative;
+        left: 2%;
+    
+    
+    
+    }
+    
+    header img {
+        width: 100%;
+        height: 50%;
+        box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.541);
+    }
+    
+    .archi {
+    
+        position: relative;
+        width: auto;
+        
+    }
+    
+    .archi .architect {
+    
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        letter-spacing: 1px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 48%;
+        color: white;
+        width: 100%;
+    }
+
+   
+
+    h2 {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.616);
+        width: 60%;
+        height: 75%;
+        display: inline;
+        font-size: 25px;
+    
+    }
+    
+    h3 {
+        color: white;
+        width: 25%;
+        height: 75%;
+        display: inline;
+        font-size: 30px;
+    
+    }
+    
+    #projets {
+    
+    
+        width: 97%;
+        margin: auto;
+        position: relative;
+        top: 45px;
+        bottom: 45px;
+        left: 15px;
+    
+    
+    
+    }
+    
+    h1 {
+        letter-spacing: 2px;
+    
+    }
+    
+    
+    
+    
+    .multihouse {
+        position: relative;
+        margin-right: 200px;
+        
+        
+     
+    
+    }
+    
+    
+    .pos {
+        display: inline-block;
+        position: relative;
+        width: 45%;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+    .house,
+    .house2,
+    .house3,
+    .house4,
+    .house5,
+    .house6,
+    .house7,
+    .house8 {
+        color: white;
+        background-color: rgb(0, 0, 0);
+        height: 8%;
+        width: 27%;
+        display: inline-block;
+        position: absolute;
+        padding: 3%;
+        padding-left: 5%;
+        font-size: 14px;
+        
+    
+    }
+    
+    #projets img {
+        width: 97%;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    
+    .about {
+        display: inline-block;
+        width: 100%;
+        letter-spacing: 2px;
+        font-size: large;
+
+    }
+    
+    .bar {
+        border: rgba(0, 0, 0, 0.13) solid 1px;
+        margin-left: 9px;
+        margin-right: 3.5%;
+        position: relative;
+        
+        margin-top: 45px;
+        margin-bottom: 4%;
+    }
+    
+    #about {
+        width: 97%;
+        margin: auto;
+    }
+    
+    .textlorem{
+        position: relative;
+         top: 4px; 
+         font-size: 15px;
+         margin-right: 4px;
+    }
+    
+    
+    .team1 {
+        position: relative;
+        display: inline-block;
+        width: 46%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    
+    .team2 {
+        position: relative;
+        display: inline-block;
+        width: 46%;
+        margin-right: 1%;
+    }
+    
+    .team4 {
+        position: relative;
+        display: inline-block;
+        width: 46%;
+        margin-right: 1%;
+        top: 30px;
+    }
+    
+    .team3 {
+        position: relative;
+        display: inline-block;
+        width: 46%;
+        margin-right: 1%;
+        top: 30px;
+        margin-left: 1%;
+    }
+    
+    
+    .team1 img,
+    .team2 img,
+    .team3 img,
+    .team4 img {
+        display: inline-block;
+        width: 100%;
+        
+    
+    
+    }
+    
+    .mot{
+        position: relative;
+        margin-top: 4%;
+    }
+    #contact {
+        width: 97%;
+        margin: auto;
+        padding: 0;
+        margin-left: 45px;
+        position: relative;
+        top: 130px;
+        margin-top: 4%;
+    }
+    
+    .dude {
+        background: rgba(182, 182, 182, 0.253);
+        width: 95%;
+        color: rgb(0, 0, 0) solid;
+        height: 30px;
+        text-align: center;
+        padding: 2%;
+        position: relative;
+        margin-top: 4%;
+    
+    }
+    
+    #about {
+        width: 97%;
+        margin: auto;
+        position: relative;
+        left: 3.5%;
+        top: 80px;
+
+    }
+    
+    input {
+        width: 96%;
+        padding: 4px;
+        vertical-align: top;
+    }
+    
+    .sub button{
+        color: white;
+        background-color: rgb(0, 0, 0);
+        height: 10%;
+        width: 25%;
+        width: 15%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .map {
+        width: 100%;
+        margin: auto;
+    
+        
+    }
+    
+    .map img {
+        width: 97%;
+        height: 100vh;
+        position:relative
+    }
+    
+    .black {
+        text-align: center;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        height: 50%;
+        
+        width: 97%;
+        height: 10%;
+        margin: 0;
+        position: absolute;
+        margin-bottom: 450px;
+    }
+
+
+.next{
+    position: relative;
+    margin-bottom: 2%;
+}
+}
+
+
+/* téléphone */
+@media screen and (max-width:576px) {
+    * {
+       margin: 0;
+       padding: 0;
+  
+
+   }
+  
+  
+   menu * {
+       margin: 0;
+       padding: 0;
+   
+   }
+   
+   header {
+       display: inline-block;
+       width: 100%;
+       letter-spacing: 0px;
+       
+   
+   
+   
+   }
+   
+   ul {
+       display: none;
+   
+       text-align: left;
+        border: blue solid; 
+       position: relative;
+       left: 65%;
+       
+       
+   
+   }
+   
+   li {
+       display: inline-block;
+       /* margin-left: 460px; */
+   
+   
+   }
+   
+   .droite {
+       display: inline-block;
+       position: relative;
+       left: 4%;
+       height: 20px;
+       padding: 2%;
+       top: 5px;
+       bottom: 10px;
+   font-size: 25px ;
+   letter-spacing: 2px;
+   
+   }
+   
+   header img {
+       width: 100%;
+        height: 200px;
+       box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.541);
+   }
+   
+   .archi {
+   
+       position: relative;
+       width: auto;
+       
+   }
+   .tel{
+    /* color: white; */
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 100%;
+    height: 750px;
+    /* display: inline; */
+    font-size: 25px;
+   }
+.tel2{
+    display: none;
+}
+   .archi .architect {
+   
+       z-index: 1;
+       position: absolute;
+       text-align: center;
+       letter-spacing: 1px;
+       margin: auto;
+       left: 0;
+       right: 0;
+       top: 48%;
+       color: white;
+       width: 100%;
+       height: 400px;
+   }
+.archi img{
+    width: 100%;
+}
+  
+
+   
+   h3 {
+       color: white;
+       width: 25%;
+       height: 75%;
+       display: inline;
+       font-size: 30px;
+   
+   }
+   
+   #projets {
+   
+   
+       width: 97%;
+       margin: auto;
+       position: relative;
+       top: 45px;
+       bottom: 45px;
+       left: 4px;
+   
+   
+   
+   }
+   
+   h1 {
+       letter-spacing: 2px;
+   
+   }
+   
+   
+   
+   
+   .multihouse {
+       position: relative;
+        margin-right: 200px; 
+
+       
+       
+    
+   
+   }
+   
+   
+   .pos {
+       display: inline-block;
+       position: relative;
+       width: 80%;
+       margin-left: 50px;
+       margin-right: 12px;
+   }
+   
+   .house,
+   .house2,
+   .house3,
+   .house4,
+   .house5,
+   .house6,
+   .house7,
+   .house8 {
+       color: white;
+       background-color: rgb(0, 0, 0);
+       height: 8%;
+       width: 27%;
+       display: inline-block;
+       position: absolute;
+       padding: 3%;
+       padding-left: 5%;
+       font-size: 18px;
+       
+   
+   }
+   
+   #projets img {
+       width: 97%;
+       display: inline-block;
+       margin-right: 10px;
+       margin-bottom: 10px;
+       margin-left: 0;
+   }
+   
+   .about {
+       display: inline-block;
+       width: 100%;
+       letter-spacing: 2px;
+       font-size: large;
+
+   }
+   
+   .bar {
+       border: rgba(0, 0, 0, 0.13) solid 1px;
+       margin-left: 5px;
+       margin-right: 10%;
+       position: relative;
+       
+       margin-top: 45px;
+       margin-bottom: 4%;
+   }
+   
+   #about {
+       width: 97%;
+       margin: auto;
+   }
+   
+   .textlorem{
+       position: relative;
+        top: 4px; 
+        font-size: 15px;
+        margin-right: 4px;
+   }
+   
+   
+   .team1 {
+       position: relative;
+       display: inline-block;
+       width: 80%;
+       margin-right: 1%;
+       margin-left: 3%;
+   }
+   
+   .team2 {
+       position: relative;
+       display: inline-block;
+       width: 80%;
+       margin-right: 1%;
+       margin-left: 3%;
+       top: 30px;
+   }
+   
+   .team4 {
+       position: relative;
+       display: inline-block;
+       width: 80%;
+       margin-right: 1%;
+       top: 70px;
+       margin-left: 3%;
+   }
+   
+   .team3 {
+       position: relative;
+       display: inline-block;
+       width: 80%;
+       margin-right: 1%;
+       top: 50px;
+       margin-left: 3%;
+   }
+   
+   
+   .team1 img,
+   .team2 img,
+   .team3 img,
+   .team4 img {
+       display: inline-block;
+       width: 100%;
+       
+   
+   
+   }
+   
+   .mot{
+       position: relative;
+       margin-top: 4%;
+   }
+   #contact {
+       width: 80%;
+       margin: auto;
+       padding: 0;
+       margin-left: 45px;
+       position: relative;
+       top: 130px;
+       margin-top: 4%;
+   }
+   
+   .dude {
+       background: rgba(182, 182, 182, 0.253);
+       width: 95%;
+       color: rgb(0, 0, 0) solid;
+       height: 30px;
+       text-align: center;
+       padding: 2%;
+       position: relative;
+       margin-top: 4%;
+   
+   }
+   
+   #about {
+       width: 97%;
+       margin: auto;
+       position: relative;
+       left: 3.5%;
+       top: 80px;
+
+   }
+   
+   input {
+       width: 96%;
+       padding: 4px;
+       vertical-align: top;
+   }
+   
+   .sub button{
+       color: white;
+       background-color: rgb(0, 0, 0);
+       height: 10%;
+       width: 25%;
+       width: 15%;
+       height: 30px;
+       text-align: center;
+   }
+   
+   .map {
+       width: 100%;
+       margin: auto;
+   
+       
+   }
+   
+   .map img {
+       width: 97%;
+       height: 250px;
+       position:relative
+   }
+   
+   .black {
+       text-align: center;
+       color: white;
+       background-color: rgb(0, 0, 0);
+       height: 50%;
+       
+       width: 97%;
+       height: 10%;
+       margin: 0;
+       position: absolute;
+       margin-bottom: 455px;
+       padding-top: 5%;
+   }
+
+
+.next{
+   position: relative;
+   margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
